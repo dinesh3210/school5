@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.bar h2{
+    background: #eea6ca; 
+    font-family: Arial, sans-serif; 
+    padding: 15px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-us {
+    background-color:  #eea6ca;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.contact-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-title h2 {
+    margin: 0;
+    color: #333;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #0c0401;
+}
+
+.contact-details p {
+    text-align: center;
+    color: #130505;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.school-logo {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.details ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #333;
+}
+
+.details ul li i {
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #0f0703;
+}
+
+.details ul li span {
+    font-size: 1.1em;
+}
